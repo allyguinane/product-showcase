@@ -18,61 +18,57 @@
 
 
  <!-- Header -->
-  <header>
-    <nav class="container">
-      <div class="one-third">
-        <a href="castle.html" class="site-logo"><img src="images/site-logo.png" alt="Castle Academy of Early Education" /></a>
-      </div>
-      <div>
-        <button class="nav_toggle_button">
-          <span class="icon_hamburger">
-          </span>
-        </button>
-      </div>
-    </nav>
+  <header id="header_nav" class="header_nav header_nav_active">
+    <div class="wrapper">
+      <a href="castle.html" class="site-logo"><img src="images/site-logo.png" alt="Castle Academy of Early Education" /></a>
+    </div>
+
+
+
     <nav id="nav_toggle_menu" class="nav_toggle_menu">
-      <ul class="nav_sections"
-       <li>
+      <ul class="nav_sections">
         <li class="nav_link_program">
-          <a href="program" class>
-            <span class="fa-graduation-cap">
-            </span>
+          <a href="#program" class>
+            <span class="fa fa-graduation-cap"></span>
             <span class="nav_label">Our Program</span>
           </a>
         </li>
+
         <li class="nav_link_about">
-          <a href="about" class>
-            <span class="fa-child">
-            </span>
+          <a href="#about" class>
+            <span class="fa fa-child"></span>
             <span class="nav_label">About Us</span>
           </a>
         </li>
+
         <li class="nav_link_question">
-          <a href="question" class>
-            <span class="fa-question-circle">
-            </span>
+          <a href="#question" class>
+            <span class="fa fa-question-circle"></span>
             <span class="nav_label">Questions</span>
           </a>
         </li>
+
         <li class="nav_link_contact">
-          <a href="contact" class>
-            <span class="fa-phone">
-            </span>
+          <a href="#contact" class>
+            <span class="fa fa-phone"></span>
             <span class="nav_label">Contact Us</span>
           </a>
         </li>
       </ul>
     </nav>
+    </div>
  </header>
 
 
    <!-- Hero -->
 <body>
 <main>
-  <header>
     <nav class="container">
+      <div class="wrapper">
+        <img src="images/Castle1crop.png" class="castle1crop"
+      </div>
       <div class="one-third">
-        <h1>Welcome to Castle Academy</h1>
+        <h1 style="font-size:50px; line-height: 60px; color:#39B54A">Welcome to Castle Academy</h1>
         <p><strong>Every child needs the right start.</strong> That’s why our teachers have the knowledge and commitment to  be the best. We offer age-appropriate curriculum in a nurturing, enriching environment.</p>
           <p><strong>773-239-2299</strong>
           <br>
@@ -82,7 +78,7 @@
         </div>
       </div>
     </nav>
-  </header>
+</main>
  
 
 
@@ -101,7 +97,7 @@
            <p>Castle Academy’s role is to support, guide and enhance the student’s view as a learner by providing a high quality, developmentally appropriate program that links the goals of home, school and community.</p>
   -->
 
- <section class="programs">
+ <section id="programs" class="programs">
     <nav class="container">
       <div class="one-third">
          <h1>Our Programs</h1>
@@ -119,7 +115,7 @@
 
 
 <!-- About Us -->
- <section class="about">
+ <section id="about" class="about">
     <nav class="container">
       <div class="one-third">
       <h1>About Us</h1>
@@ -133,7 +129,8 @@
         </ul>
       <h3>Castle Academy School Goals</h3>
         <ul>
-          <li>To help each child become a self-confident,  enthusiastic learner</li>
+          <span class="fa fa-plus-circle"></span>
+          <p>To help each child become a self-confident,  enthusiastic learner</p>
           <li>To encourage growth of the whole child: cognitively, emotionally, physically and socially</li>
           <li>To provide a rich and stimulating age-appropriate environment</li> 
           <li>To provide opportunities to learn about the world  in which he or she lives</li>
@@ -164,51 +161,89 @@
    -->
 
  <!-- Common Questions -->
- <section class="questions">
+ <section id="questions" class="questions">
     <nav class="container">
       <div class="one-third">
        <h1>Common Questions</h1>
        <h4>Our frequently asked questions, answered.</h4>
       </div>
 
+      <div id="row1_questions" class="container">
+        <div class="row1_column">
+          <div class="row1_qa">
+            
+            <div class="question">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+              <h5>Is Castle Academy a licensed facility?</h5>
+            </div>
+              <div class="answer">  
+                <p>Yes, we are licensed by the Department of Children and Family Services.</p>
+              </div>
+            </div>
+          
+            <div class="question">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <h5>How are teachers chosen?</h5>
+            </div>
+              <div class="answer">  
+                <p>Castle Academy staff is selected for their expertise, knowledge and commitment to teaching young children. All staff members must meet or supersede the requirements of Castle Academy of Early Education and the Department of Children and Family Services.</p>
+              </div>
+            </div>
 
-    <nav class="container">
-      <div class="one-third">
-         <ul>
-          <li>
-            <h5>Is Castle Academy a licensed facility?</h5>
-            <p>Yes, we are licensed by the Department of Children and Family Services.</p>
-          </li>
+            <div class="question">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <h5>Is ongoing teacher training required?</h5>
+            </div>
+              <div class="answer">  
+                <p>Yes, a minimum of 15 hours of professional development training is required per school year. In addition, all staff members must complete regular health examinations and background checks, which includes fingerprinting. Classes are also taken in CPR, first aid, preventing infectious diseases, blood borne pathogens and food allergies.</p>
+              </div>
+            </div>
+  
           
-          <li>
-            <h5>How are teachers chosen?</h5>
-            <p>Castle Academy staff is selected for their expertise, knowledge and commitment to teaching young children. All staff members must meet or supersede the requirements of Castle Academy of Early Education and the Department of Children and Family Services. </p>
-          </li>
-          <li>
-            <h5>Is ongoing teacher training required?</h5>
-            <p>Yes, a minimum of 15 hours of professional development training is required per school year. In addition, all staff members must complete regular health examinations and background checks, which includes fingerprinting. Classes are also taken in CPR, first aid, preventing infectious diseases, blood borne pathogens and food allergies.</p>
-          </li>
-          
-          <li>
-            <h5>How many classrooms are there?</h5>
-            <p>There are five early childhood classrooms.  Children are placed according to desired program,  age and availability.</p>
-          </li>
-          <li>
-            <h5>Is there an outside play area?</h5>
-            <p>Yes, there is a secured outside play area exclusively for Castle Academy students.</p>
-          </li>
-          <li>
-            <h5>Is parent involvement encouraged?</h5>
-            <p>Yes, we always welcome parents to celebrate their children with us by attending classroom functions, field trips, and participating in guest reader/chef programs.</p>
-          </li>
-          <li>
-            <h5>What is your discipline policy?</h5>
-            <p>Castle Academy guidance is always positive and the teachers resolve conflicts through teaching and redirecting.</p>
-          </li>
-        </ul>
+
+      <div id="row2_questions" class="container">
+        <div class="row2_column">
+          <div class="row2_qa">
+
+            <div class="question">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <h5>How many classrooms are there?</h5>
+            </div>
+              <div class="answer">  
+                <p>There are five early childhood classrooms.  Children are placed according to desired program,  age and availability.</p>
+              </div>
+            </div>
+
+            <div class="question">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <h5>Is there an outside play area?</h5>
+            </div>
+              <div class="answer">  
+                <p>Yes, there is a secured outside play area exclusively for Castle Academy students.</p>
+              </div>
+            </div>
+
+            <div class="question">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <h5>Is parent involvement encouraged?</h5>
+            </div>
+              <div class="answer">  
+                <p>Yes, we always welcome parents to celebrate their children with us by attending classroom functions, field trips, and participating in guest reader/chef programs.</p>
+              </div>
+            </div>
+
+            <div class="question">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                <h5>What is your discipline policy?</h5>
+            </div>
+              <div class="answer">  
+                <p>Castle Academy guidance is always positive and the teachers resolve conflicts through teaching and redirecting.</p>
+              </div>
+            </div>
+
+        </div>
       </div>
     </nav>
-  </div>
 </section>
 
 
@@ -252,7 +287,7 @@
  -->
 
  <!-- Contact section -->
- <section class="contact">
+ <section id="tuition" class="tuition">
     <nav class="container">
       <div class="one-third">
         <h2>Tuition Costs</h2>
@@ -266,7 +301,7 @@
     </nav>
  </section>
   
- <section class="contact">
+ <section id="employment" class="employment">
     <nav class="container">
       <div class="one-third">
         <h2>Employment</h2>
@@ -279,11 +314,11 @@
    </nav>
  </section>
 
- <section class="contact">
+ <section id="contactus" class="contactus">
     <nav class="container">
       <div class="one-third">
         <h2>Contact Us</h2>
-        <h4>Offices hours are 6:30 a.m. to 6:30 p.m., M-F.  Email or call us for information.</h4>
+        <h4>Offices hours are 6:30 a.m. to 6:30 p.m., M-F. Email or call us for information.</h4>
          <p>Name</p>
          <p>Email address</p>
          <p>I would like to receive the monthly Castle Academy newsletter.</p>
@@ -323,7 +358,7 @@
  <footer>
    <div class="container footer-nav-block">
        <div class="middle-footer-block one-third">
-         <p class="copyright-block">&copy; 2016. <strong>The Castle Academy of Early Education</strong>  |  10244 Longwood Drive, Chicago, IL 60643  |  773-239-2299</p>
+         <p style="color: #FFF; text-align: center;" class="copyright-block">&copy; 2016. <strong>The Castle Academy of Early Education</strong> | 10244 Longwood Drive, Chicago, IL 60643 | 773-239-2299</p>
        </div>
    </div>
  </footer> 
