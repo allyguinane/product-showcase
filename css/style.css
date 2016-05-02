@@ -50,108 +50,6 @@ html, body{
 
 
 
-
-/* GRID */
- .container {
-   margin-right: auto;
-   margin-left: auto;
-   padding-left: 15px;
-   padding-right: 15px;
-   position: relative;
- }
- .container:before,
- .container:after {
-   content: " ";
-   display: table;
- }
- .container:after {
-   clear: both;
- }
- .one-half, .one-third, .one-fourth {
-   width:96%;
-   float:left;
-   position:relative;
-   min-height: 1px;
-   margin:0 2% 20px;
- }
-
- /*CLASSES*/
-
-header {
-  height: 200px;
-  padding: 20px 0 70px 0;
-  background: #FFFFFF 100% 0;
-  background-position: 0 0, 0 0, -5px -25px, 0 50%;
-  text-align: left;
-}
-
-.main {
-  height: 809px;
-  padding: 20px 0 70px 0;
-  background: #FFFFFF;
-  text-align: left;
-}
-
-.programs {
-  height: 801px;
-  padding: 20px 0 70px 0;
-  background: #B3DED6 100%;
-  text-align: left;
-}
-
-.about {
-  height: 1000px;
-  padding: 20px 0 70px 0;
-  background: #FFFFFF 100%;
-  text-align: left;
-}
-
-.questions {
-  height: 1000px;
-  padding: 20px 0 70px 0;
-  background: #39B54A 100%;
-  text-align: left;
-
-}
-
-.tuition {
-  height: 801px;
-  width: 480px;
-  padding: 20px;
-  background: #B3DED6;
-  text-align: left;
-}
-
-.employment {
-  height: 801px;
-  width: 480px;
-  padding: 20px;
-  background: #FFFFFF;
-  text-align: left;
-  text-decoration: #EE5323 bold;
-}
-
-.contactus {
-  height: 801px;
-  width: 480px;
-  padding: 20px;
-  background: #FED006;
-  text-align: left;
-}
-
-
-/*FOOTER*/
-
-footer {
-  height: 100px;
-  padding: 20px;
-  background: #4A4A4A;
-  text-align: center;
-}
-
-
-
-
  /* IMAGES */
  .wrapper {
   max-width:1200px
@@ -174,9 +72,229 @@ footer {
   }
 
 
+
+/* GRID */
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+
+ /*this is a psuedo class*/
+ .container:before,
+ .container:after {
+   content: " ";
+   display: table;
+ }
+ .container:after {
+   clear: both;
+ }
+ .one-half, .one-third, .one-fourth {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
+ }
+
+
+
+ /* Not sure what these do? */
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+ @media tv (min-width: 1920px) {
+   .container {
+     width: 1880px;
+   }
+ }
  
- /* Text Decoration */
- a {
-  text-decoration:none; /* Removes all decorations, including underlines from links (anchor tags) */
-  text-decoration:underline;
+.main {
+  height: 809px;
+  padding: 20px 0 70px 0;
+  background: #FFFFFF;
+  text-align: left;
 }
+
+/* HEADER */
+
+header {
+  height: 200px;
+  padding: 20px 0 70px 0;
+  background: #FFFFFF 100% 0;
+  background-position: 0 0, 0 0, 1px 1px, 0 100%;
+  text-align: left;
+}
+
+.nav_toggle_menu {}
+
+.nav_sections {}
+
+.nav_link_program {}
+
+.#program {}
+
+.nav_link_about {}
+
+.#about {}
+
+.nav_link_question {}
+
+.#question {}
+
+.nav_link_contact {}
+
+.#contact{}
+
+.nav_label {}
+
+
+
+
+
+/* HERO */
+
+
+/* this didn't work correctly
+.castle1crop {
+   background: #322740 url("images/Castle1crop.png") top center no-repeat;
+   background: "images/background.png" top center no-repeat;
+   background-size:cover;
+   text-align: left;
+   padding:10em 0;
+*/
+.container{}
+
+.wrapper {}
+
+.castle1crop {}
+
+.container {}
+
+
+
+/* PROGRAMS */
+.programs {
+  height: 801px;
+  padding: 20px 0 70px 0;
+  background: #B3DED6 100%;
+  text-align: left;
+}
+
+.container {}
+
+
+/* ABOUT */
+.about {
+  height: 1000px;
+  padding: 20px 0 70px 0;
+  background: #FFFFFF 100%;
+  text-align: left;
+}
+.container {}
+span class {}
+
+
+/* QUESTIONS */
+.questions {
+  height: 1000px;
+  padding: 20px 0 70px 0;
+  background: #39B54A 100%;
+  text-align: left;
+}
+
+.container {}
+.row1_questions {}
+.row1_column
+.row1_qa
+.question
+.fa fa-plus-circle
+.answer
+.row2_questions
+.row2_column
+.row2_qa
+
+
+/* CONTACT */
+.tuition {
+  height: 801px;
+  width: 480px;
+  padding: 20px;
+  background: #B3DED6;
+  text-align: left;
+}
+
+.container {}
+
+.employment {
+  height: 801px;
+  width: 480px;
+  padding: 20px;
+  background: #FFFFFF;
+  text-align: left;
+  text-decoration: #EE5323 bold;
+}
+
+.contactus {
+  height: 801px;
+  width: 480px;
+  padding: 20px;
+  background: #FED006;
+  text-align: left;
+}
+
+.field-item {}
+
+.show-hide-label
+
+ .btn {
+   border-radius: 4px;
+   color:#39B54A;
+   font-weight: bold;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   box-shadow: 0px 2px 0px 0px #000000;
+ }
+
+
+
+
+*/
+
+
+
+/*FOOTER*/
+footer {
+  height: 100px;
+  padding: 20px;
+  background: #4A4A4A;
+  text-align: center;
+}
+
+
+
