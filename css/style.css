@@ -50,17 +50,6 @@ html, body{
 
 
 
- /* IMAGES */
- .wrapper {
-  max-width:1200px
-  padding-right: 0; 
-  height: inherit;
-  position: relative;
-  padding:0 60px;
-  margin:0 auto;
- }
-
-
 
 /* FONT AWESOME STUFF */
     
@@ -69,6 +58,7 @@ html, body{
     top: 0;
     left: 0;
     right: 5px;
+    position: ;
   }
 
 
@@ -131,7 +121,7 @@ html, body{
      width: 1880px;
    }
  }
- 
+
 .main {
   height: 809px;
   padding: 20px 0 70px 0;
@@ -149,9 +139,31 @@ header {
   text-align: left;
 }
 
-.nav_toggle_menu {}
+header .wrapper {
+  max-width: 0px
+  padding: 20; 
+  height: inherit;
+  position: left;
+  padding:0 10px;
+  margin:0 auto;
+  float: left;
+ }
 
-.nav_sections {}
+.header_nav header_nav_active {}
+
+.header_nav
+
+.site-logo
+
+
+.nav_toggle_menu {
+
+}
+
+.nav_sections {
+  float: right;
+}
+}
 
 .nav_link_program {}
 
@@ -224,6 +236,7 @@ span class {}
   padding: 20px 0 70px 0;
   background: #39B54A 100%;
   text-align: left;
+  clear:both;
 }
 
 .container {}
@@ -270,7 +283,7 @@ span class {}
 
 .show-hide-label
 
- .btn {
+.btn {
    border-radius: 4px;
    color:#39B54A;
    font-weight: bold;
@@ -282,18 +295,13 @@ span class {}
  }
 
 
-
-
-*/
-
-
-
 /*FOOTER*/
 footer {
   height: 100px;
   padding: 20px;
   background: #4A4A4A;
   text-align: center;
+  clear:both;
 }
 
 
